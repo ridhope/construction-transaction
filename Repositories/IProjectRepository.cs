@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-
 public interface IProjectRepository
 {
     Task<IEnumerable<Project>> GetAllProjectsAsync();

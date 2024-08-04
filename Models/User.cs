@@ -20,7 +20,7 @@ public class User
 
     public User()
     {
-        Username = string.Empty; // Inisialisasi dengan nilai default
-        PasswordHash = string.Empty; // Inisialisasi dengan nilai default
+        Username = string.Empty; 
+        PasswordHash = string.Empty; 
     }
 }

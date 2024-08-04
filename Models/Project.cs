@@ -45,11 +45,11 @@ public class Project
 
      public Project()
     {
-        ProjectName = string.Empty; // Inisialisasi dengan nilai default
-        ProjectLocation = string.Empty; // Inisialisasi dengan nilai default
-        ProjectStage = string.Empty; // Inisialisasi dengan nilai default
-        ProjectCategory = string.Empty; // Inisialisasi dengan nilai default
-        OtherCategory = string.Empty; // Inisialisasi dengan nilai default
-        ProjectDetails = string.Empty; // Inisialisasi dengan nilai default
+        ProjectName = string.Empty; 
+        ProjectLocation = string.Empty; 
+        ProjectStage = string.Empty; 
+        ProjectCategory = string.Empty; 
+        OtherCategory = string.Empty; 
+        ProjectDetails = string.Empty; 
     }
 }
