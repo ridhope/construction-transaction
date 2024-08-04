@@ -42,4 +42,14 @@ public class Project
     [Required]
     [Column("projectcreatorid")]
     public Guid ProjectCreatorID { get; set; }
+
+     public Project()
+    {
+        ProjectName = string.Empty; // Inisialisasi dengan nilai default
+        ProjectLocation = string.Empty; // Inisialisasi dengan nilai default
+        ProjectStage = string.Empty; // Inisialisasi dengan nilai default
+        ProjectCategory = string.Empty; // Inisialisasi dengan nilai default
+        OtherCategory = string.Empty; // Inisialisasi dengan nilai default
+        ProjectDetails = string.Empty; // Inisialisasi dengan nilai default
+    }
 }
