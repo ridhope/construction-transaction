@@ -25,7 +25,9 @@ cd construction-transaction
 dotnet restore
 ```
 
-4. Build the project:
+4. Run startwithme.sql on PostgreSQL
+
+5. Build the project:
 ```sh
 dotnet build
 ```
